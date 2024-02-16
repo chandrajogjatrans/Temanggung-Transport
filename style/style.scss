@@ -1,0 +1,371 @@
+body {
+  font-family: "Roboto Flex", sans-serif;
+  a {
+    text-decoration: none;
+    background-color: none;
+    color: white;
+  }
+  .pesan-navbar {
+    padding: 7px 15px;
+    background-color: rgb(13, 13, 194);
+  }
+  .pesan-navbar:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+  }
+
+  .navbar {
+    padding: 20px 0px;
+  }
+
+  .pesan {
+    margin-top: 10px;
+    padding: 7px 15px;
+    background-color: rgb(13, 13, 194);
+  }
+  .pesan:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    background-color: red;
+  }
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+nav {
+  .navbar-brand {
+    font-weight: bold;
+    color: rgb(13, 13, 194);
+    font-size: 30px;
+  }
+  .active {
+    font-weight: bold;
+    color: rgb(13, 13, 194) !important;
+  }
+}
+
+.judul {
+  margin-top: 95px;
+  background-image: url("/plugin/gambar/banner.png");
+  background-size: cover;
+  padding: 80px 0px;
+  h1 {
+    color: rgb(13, 13, 194);
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  .pesan {
+    margin-top: 30px;
+    padding: 7px 15px;
+    background-color: rgb(13, 13, 194);
+  }
+  .pesan:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+    background-color: red;
+  }
+}
+
+.sorot {
+  margin-top: -35px;
+  .item-mobil {
+    border: solid 2px rgb(204, 204, 204);
+    box-shadow: -5px -5px 2px rgb(134, 134, 134);
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    img {
+      margin-bottom: 15px;
+    }
+    h5 {
+      color: rgb(13, 13, 194);
+      font-weight: bold;
+    }
+    p {
+      color: rgb(87, 86, 86);
+    }
+    .hubungi {
+      button {
+        color: rgb(13, 13, 194);
+      }
+      button:hover {
+        transform: scale(1.03);
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+        background-color: rgb(13, 13, 194);
+        color: white;
+      }
+    }
+  }
+}
+
+.keuntungan {
+  background-color: rgba(167, 167, 255, 0.096);
+  padding: 50px;
+  .keuntungan-judul {
+    h2 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+      span {
+        color: black;
+      }
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .keuntungan-content {
+    img {
+      margin-bottom: 25px;
+      box-shadow: 10px 10px 10px rgb(134, 134, 134);
+    }
+    .item-keuntungan {
+      .icon {
+        i {
+          color: rgb(13, 13, 194);
+        }
+      }
+      .keterangan {
+        h3 {
+          color: rgb(13, 13, 194);
+          font-weight: bold;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
+
+.paket-harga {
+  padding: 40px 0px 30px 0px;
+  .paket-harga-judul {
+    margin-bottom: 50px;
+    h2 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+    }
+    h3 {
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .paket-harga-content {
+    .paket-harga-item {
+      padding: 30px 15px 10px 15px;
+      border: 2px solid rgb(13, 13, 194);
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+      margin-bottom: 50px;
+      h3 {
+        font-weight: bold;
+      }
+      h4 {
+        font-weight: bold;
+        color: rgb(13, 13, 194);
+        span {
+          font-size: 13px;
+          color: grey;
+        }
+      }
+      .best {
+        color: rgb(255, 187, 1);
+      }
+      ul {
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        li {
+          margin-bottom: 5px;
+        }
+        .na {
+          text-decoration: line-through;
+          color: rgb(168, 168, 168);
+        }
+      }
+      hr {
+        margin-top: -15px;
+        color: rgb(13, 13, 194);
+      }
+      .dua {
+        margin-top: -10px;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+      }
+      .harga-dua {
+        margin-top: -15px;
+        font-weight: bold;
+        color: rgb(13, 13, 194);
+        font-size: 20px;
+      }
+      .pesan-sekarang-mobil {
+        margin-bottom: 12px;
+        .btn-pesan {
+          background-color: rgb(13, 13, 194);
+          color: white;
+        }
+        .pesan-best {
+          background-color: rgb(255, 187, 1);
+          a {
+            color: black;
+          }
+        }
+        .btn-pesan:hover {
+          transform: scale(1.05);
+          box-shadow: -4px 4px 2px rgba(0, 0, 0, 0.8);
+        }
+      }
+      .lihat-detail {
+        a {
+          color: black;
+          text-decoration: underline;
+        }
+      }
+      .lihat-detail:hover {
+        transform: scale(1.07);
+      }
+    }
+    .best-a {
+      border: 2px solid rgb(255, 187, 1);
+      transform: scale(1.05);
+    }
+  }
+}
+
+.pesan-sekarang {
+  background-color: rgba(167, 167, 255, 0.096);
+  padding: 40px;
+  .pesan-sekarang-judul {
+    h2 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+    }
+  }
+}
+
+footer {
+  background-color: rgb(13, 13, 194);
+  color: white;
+  line-height: 40px;
+  height: 40px;
+}
+
+.alamat {
+  margin-top: 20px;
+}
+
+.pilihan-wisata {
+  margin-top: 45px;
+  .judul-pilihan-wisata {
+    h2 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .content-pilihan-wisata {
+    .card-wisata {
+      border: none;
+      margin-bottom: 40px;
+      .tombol-pesan {
+        margin-top: -20px;
+      }
+      img {
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
+      }
+    }
+    margin-top: 35px;
+    img {
+      margin-bottom: 15px;
+    }
+    h4 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+      .kota {
+        color: black;
+      }
+    }
+    hr {
+      margin-top: -2px;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.kenapa-hiace {
+  margin-top: 25px;
+  h2 {
+    font-weight: bold;
+    color: rgb(13, 13, 194);
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .content-kenapa-hiace {
+    margin-top: 30px;
+    .item-kenapa-hiace {
+      margin-bottom: 25px;
+      padding: 0px;
+      padding-right: 10px;
+      .gambar {
+        margin-right: 17px;
+        img {
+          box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.8);
+        }
+      }
+      .keterangan {
+        h5 {
+          font-weight: bold;
+          color: rgb(13, 13, 194);
+        }
+      }
+    }
+  }
+}
+
+.info-tambahan {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(167, 167, 255, 0.096);
+  .content-info-tambahan {
+    margin-bottom: 15px;
+    h4,
+    h5 {
+      font-weight: bold;
+    }
+    h4 {
+      color: rgb(13, 13, 194);
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 18px;
+    }
+    h6 {
+      font-weight: bold;
+      color: rgb(13, 13, 194);
+    }
+    p {
+      font-size: 14px;
+      a {
+        color: black;
+      }
+    }
+  }
+}
